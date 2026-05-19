@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <title>
+      Muhammad Haikel Saleh | Digital Profile
+    </title>
+
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="style.css"
+    />
+  </head>
+
+  <body>
+    <audio
+      id="bgMusic"
+      src="assets/music.wav"
+      loop
+      preload="auto"
+    ></audio>
+
+    <div class="noise"></div>
+    <div class="scanline"></div>
+
+    <!-- Intro Terminal -->
+    <div
+      class="boot"
+      id="boot"
+    >
+      <div class="terminal">
+        <div class="terminalTop">
+          <div class="dots">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+
+          <span>
+            haikel-profile.exe
+          </span>
+
+          <span>
+            CMD
+          </span>
+        </div>
+
+        <div class="terminalBody">
+          <div id="terminalLines"></div>
+
+          <div
+            class="enterPanel"
+            id="enterPanel"
+          >
+            <p>
+              <span></span>
+              PROFILE SYSTEM READY
+            </p>
+
+            <button id="enterBtn">
+              OPEN PROFILE
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Page -->
+    <main
+      id="page"
+      class="page"
+    >
+      <!-- Header -->
+      <header>
+        <a
+          href="#home"
+          class="brand"
+        >
+          <b>
+            HS
+          </b>
+
+          Haikel<span>.profile</span>
+        </a>
+
+        <nav>
+          <a href="#about">
+            About
+          </a>
+
+          <a href="#skills">
+            Skills
+          </a>
+
+          <a href="#journey">
+            Journey
+          </a>
+
+          <a href="#projects">
+            Projects
+          </a>
+
+          <a href="#contact">
+            Contact
+          </a>
+        </nav>
+
+        <button
+          id="musicBtn"
+          class="musicBtn"
+        >
+          ♫
+        </button>
+      </header>
+
+      <!-- Hero -->
+      <section
+        class="hero"
+        id="home"
+      >
+        <div class="heroText reveal">
+          <div class="badge">
+            ⚡ Personal Profile for Career
+          </div>
+
+          <h1>
+            Muhammad
+            <span>
+              Haikel
+            </span>
+            Saleh
+          </h1>
+
+          <div class="typing">
+            <em id="heroType"></em>
+            <i></i>
+          </div>
+
+          <p>
+            Lulusan SMKN 22 Jakarta jurusan Teknik Komputer dan Jaringan.
+            Tertarik pada dunia IT, editing, multimedia, content creation,
+            dan tampilan digital yang rapi, modern, serta profesional.
+          </p>
+
+          <div class="actions">
+            <a href="#projects">
+              View Portfolio
+            </a>
+
+            <a href="#contact">
+              Contact Me
+            </a>
+          </div>
+
+          <div class="stats">
+            <div>
+              <b>
+                TKJ
+              </b>
+
+              <small>
+                Computer & Network
+              </small>
+            </div>
+
+            <div>
+              <b>
+                IT
+              </b>
+
+              <small>
+                Main Interest
+              </small>
+            </div>
+
+            <div>
+              <b>
+                CREATIVE
+              </b>
+
+              <small>
+                Digital Focus
+              </small>
+            </div>
+          </div>
+        </div>
+
+        <div class="visual reveal">
+          <div class="orbit"></div>
+          <div class="orbit orbit2"></div>
+
+          <div class="chip chip1">
+            &gt; detail_oriented: true
+          </div>
+
+          <div class="chip chip2">
+            &gt; ready_to_grow
+          </div>
+
+          <div class="holo">
+            <div class="avatar">
+              HS
+            </div>
+
+            <div class="holoInfo">
+              <h3>
+                Muhammad Haikel Saleh
+              </h3>
+
+              <p>
+                IT  • Digital Creative • Multimedia Learner
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="about">
+        <div class="title reveal">
+          <span>
+            01 / About Me
+          </span>
+
+          <h2>
+            Profile Singkat
+          </h2>
+
+          <p>
+            Website ini saya buat untuk memperkenalkan diri secara modern,
+            personal branding, dan portfolio
+            digital.
+          </p>
+        </div>
+
+        <div class="grid two">
+          <div class="card reveal">
+            <h3>
+              Profil Singkat
+            </h3>
+
+            <p>
+              Saya lulusan SMK jurusan TKJ dari SMKN 22 Jakarta.
+              Selama sekolah, saya aktif di basket dan tertarik pada
+              komputer, jaringan, editing, serta multimedia.
+            </p>
+          </div>
+
+          <div class="card cmdCard reveal">
+            <p class="cmd">
+              C:\Haikel\profile&gt; run character.json
+            </p>
+
+            <ul>
+              <li>
+                detail-oriented
+              </li>
+
+              <li>
+                suka hasil yang rapi dan jelas
+              </li>
+
+              <li>
+                terus belajar hal baru
+              </li>
+
+              <li>
+                tertarik teknologi dan kreativitas digital
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills">
+        <div class="title reveal">
+          <span>
+            02 / Skills
+          </span>
+
+          <h2>
+            Skill & bidang yang saya eksplor.
+          </h2>
+
+          <p>
+            Dasar kemampuan saya berada di bidang IT, lalu berkembang
+            ke editing, desain sederhana, konten, dan dokumen formal.
+          </p>
+        </div>
+
+        <div class="grid four">
+          <div class="card reveal">
+            <strong>
+              💻
+            </strong>
+
+            <h3>
+              IT & Komputer
+            </h3>
+
+            <p>
+              Dasar komputer, jaringan, troubleshooting, dan minat
+              pada teknologi.
+            </p>
+          </div>
+
+          <div class="card reveal">
+            <strong>
+              🎬
+            </strong>
+
+            <h3>
+              Video Editing
+            </h3>
+
+            <p>
+              Editing video, konsep promosi produk, dan visual modern
+              minimalis.
+            </p>
+          </div>
+
+          <div class="card reveal">
+            <strong>
+              🎨
+            </strong>
+
+            <h3>
+              Simple Design
+            </h3>
+
+            <p>
+              Membuat desain sederhana yang bersih, rapi, dan enak dilihat.
+            </p>
+          </div>
+
+          <div class="card reveal">
+            <strong>
+              📄
+            </strong>
+
+            <h3>
+              Formal Docs
+            </h3>
+
+            <p>
+              Menyusun laporan dan presentasi yang jelas serta profesional.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Journey -->
+      <section id="journey">
+        <div class="title reveal">
+          <span>
+            03 / Journey
+          </span>
+
+          <h2>
+            Perjalanan dan arah pengembangan diri.
+          </h2>
+
+          <p>
+            Fase setelah lulus adalah waktu untuk membangun skill,
+            pengalaman, dan arah karier yang lebih jelas.
+          </p>
+        </div>
+
+        <div class="timeline">
+          <div class="step reveal">
+            <div class="card">
+              <h3>
+                SMKN 22 Jakarta - TKJ
+              </h3>
+
+              <p>
+                Mempelajari dasar Teknik Komputer dan Jaringan serta
+                membangun ketertarikan pada dunia IT.
+              </p>
+            </div>
+          </div>
+
+          <div class="step reveal">
+            <div class="card">
+              <h3>
+                Aktif di Basket & Teknologi
+              </h3>
+
+              <p>
+                Mengembangkan kedisiplinan melalui olahraga sekaligus
+                mengeksplor komputer, editing, dan multimedia.
+              </p>
+            </div>
+          </div>
+
+          <div class="step reveal">
+            <div class="card">
+              <h3>
+                Ready for Next Step
+              </h3>
+
+              <p>
+                Sedang mencari arah terbaik untuk dunia kerja,
+                pengembangan skill, dan pengalaman baru di bidang digital.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects">
+        <div class="title reveal">
+          <span>
+            04 / Projects
+          </span>
+
+          <h2>
+            Project yang bisa ditampilkan.
+          </h2>
+
+          <p>
+          </p>
+        </div>
+
+        <div class="grid three">
+          <div class="card reveal">
+            <div class="thumb">
+              🎥
+            </div>
+
+            <h3>
+              Video Editing
+            </h3>
+
+            <p>
+              Konsep video modern minimalis menggunakan Alight Motion.
+            </p>
+
+            <div class="tags">
+              <span>
+                Alight Motion
+              </span>
+
+              <span>
+                Promo
+              </span>
+            </div>
+          </div>
+
+          <div class="card reveal">
+            <div class="thumb">
+              🖥️
+            </div>
+
+            <h3>
+              Personal Portfolio
+            </h3>
+
+            <p>
+              Website profile untuk menampilkan data diri, skill, minat,
+              dan kontak.
+            </p>
+
+            <div class="tags">
+              <span>
+                HTML
+              </span>
+
+              <span>
+                CSS
+              </span>
+
+              <span>
+                JS
+              </span>
+            </div>
+          </div>
+
+          <div class="card reveal">
+            <div class="thumb">
+              📊
+            </div>
+
+            <h3>
+              Report & Presentation
+            </h3>
+
+            <p>
+              Dokumen formal dan presentasi dengan layout yang rapi.
+            </p>
+
+            <div class="tags">
+              <span>
+                Report
+              </span>
+
+              <span>
+                Slides
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact">
+        <div class="title reveal">
+          <span>
+            05 / Contact
+          </span>
+
+          <h2>
+            Mari terhubung.
+          </h2>
+
+          <p>
+            Jika ingin menghubungi saya untuk kerja sama, peluang kerja,
+            project, atau informasi lainnya, kamu bisa menghubungi saya
+            melalui kontak di bawah ini.
+          </p>
+        </div>
+
+        <div class="contact">
+          <div class="card reveal">
+            <h3>
+              Open for opportunity
+            </h3>
+
+            <p>
+              Dengan dasar IT dan minat pada kreativitas digital,
+              saya siap terus belajar dan berkembang di bidang teknologi,
+              multimedia, maupun content creation.
+            </p>
+
+            <a href="mailto:haikelsaleh21@gmail.com">
+              Send Email
+            </a>
+          </div>
+
+          <div class="links reveal">
+            <a href="mailto:haikelsaleh21@gmail.com">
+              <span>
+                Email
+              </span>
+
+              <b>
+                haikelsaleh21@gmail.com
+              </b>
+            </a>
+
+            <a
+              href="https://wa.me/6289502886272"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>
+                WhatsApp
+              </span>
+
+              <b>
+                0895-0288-6272
+              </b>
+            </a>
+
+            <a
+              href="https://www.instagram.com/haekalve/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>
+                Instagram
+              </span>
+
+              <b>
+                @haekalve
+              </b>
+            </a>
+
+            <a
+              href="https://www.tiktok.com/@haekalve"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <span>
+                TikTok
+              </span>
+
+              <b>
+                @haekalve
+              </b>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer>
+        © 2026 Muhammad Haikel Saleh — Digital Profile & Portfolio
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
